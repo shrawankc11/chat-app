@@ -33,10 +33,15 @@ io.on('connection', (socket) => {
     });
 
     socket.on('user-not-typing', () => {
-        socket.broadcast.emit('user-not-typing', 'K');
+        socket.broadcast.emit('user-not-typing', 'none');
     });
-});
 
-server.listen(3000, () => {
-    console.log('listening on *:3000');
+    socket.on('show-online-users', () => {
+        
+    })
+});
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
+    console.log(`server listening at http://localhost:${PORT}`);
 });
