@@ -6,7 +6,7 @@ const messages = document.getElementById('messages');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const typing = document.getElementById('typing');
-const showOnline = document.getElementById('show-online')
+const showOnline = document.getElementById('show-online');
 
 //client side emits
 const userName = prompt('Insert you name: ');
@@ -40,6 +40,14 @@ socket.on('user-disconnected', ({ name }) => {
     displayMessage(`${name} disconnected`);
 });
 
+socket.on('show-online-users', (userList) => {
+    showUsers(userList);
+});
+
+showOnline.addEventListener('click', () => {
+    socket.emit('get-online-users');
+});
+
 //function to emit message when user sends in a messge
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -50,6 +58,12 @@ form.addEventListener('submit', (e) => {
         input.value = '';
     }
 });
+
+function showUsers(userList) {
+    for (let user of userList) {
+        alert(user);
+    }
+}
 
 //this function will add if a user is typing or not feature at the top of the chat
 function showIsTyping(item) {
