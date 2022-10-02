@@ -5,6 +5,6 @@
 
 ## To get started
 
--clone the repo
--install the required package
--test the app using 'npm run dev' or use the production version using 'npm run chat-app'
+- clone the repo
+- install the required package
+- test the app using 'npm run dev' or use the production version using 'npm run chat-app'
