@@ -5,8 +5,8 @@
 
 ## Features:
 
-- Nicknames.
-- '{user} is typing' functionality.
+- Nicknames for each user.
+- '{user} is typing...' functionality 💬.
 - User connected/disconnceted message.
 - View list of online users.
 
@@ -17,3 +17,4 @@
 - test the app using 'npm run dev' or use the production version using 'npm run chat-app'
 
 More about Websockets(socket.io) at 👉https://socket.io
+ 
