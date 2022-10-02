@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon index.js"
+    "dev" : "nodemon index.js NODE_ENV=development",
+    "chat-app" : "nodemon index.js NODE_ENV=production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["NodeJS", "Socket.io"],
+  "author": "Shrawan KC",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
