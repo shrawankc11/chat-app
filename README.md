@@ -6,7 +6,7 @@
 ## Features:
 
 - Nicknames.
-- '<user> is typing' functionality.
+- '{user} is typing' functionality.
 - User connected/disconnceted message.
 - View list of online users.
 
