@@ -3,14 +3,14 @@
 
 ```This chat app is inspired from the official Socket.io website's example chat app. The code contains all the homework challenge part from the website.```
 
-## Features:
+## Features:-
 
 - Nicknames for each user.
 - '{user} is typing...' functionality 💬.
 - User connected/disconnceted message.
 - View list of online users.
 
-## To get started
+## To get started:-
 
 - clone the repo
 - install the required package
