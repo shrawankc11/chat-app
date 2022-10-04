@@ -9,7 +9,7 @@
     "chat-app" : "nodemon index.js NODE_ENV=production"
   },
   "keywords": ["NodeJS", "Socket.io"],
-  "author": "Shrawan KC",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
