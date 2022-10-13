@@ -9,6 +9,7 @@
 - '{user} is typing...' functionality 💬.
 - User connected/disconnceted message.
 - View list of online users.
+- private chat and rooms(working on it...)
 
 ## To get started:-
 
